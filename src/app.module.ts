@@ -4,7 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DeckModule } from './deck/deck.module';
 @Module({
-  imports: [MongooseModule.forRoot('mongodb://localhost/nest'), DeckModule],
+  imports: [MongooseModule.forRoot('mongodb://mongodb/nest'), DeckModule],
   controllers: [AppController],
   providers: [AppService],
 })

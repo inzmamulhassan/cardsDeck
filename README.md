@@ -77,6 +77,8 @@ to
 imports: [MongooseModule.forRoot('mongodb://mongodb/nest'), DeckModule],
 ```
 
+## Running the dockerized app
+
 ```bash
 # development
 $ docker-compose up dev

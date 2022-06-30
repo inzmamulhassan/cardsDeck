@@ -2,7 +2,7 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-## Katana Backend Programming Test
+## Backend Programming Test Using Nestjs
 
 #### Scenario
 You intend to create card games like Poker and Blackjack. The goal is to create an API to handle decks and cards to be used in any game like

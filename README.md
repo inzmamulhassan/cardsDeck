@@ -59,9 +59,32 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Docker Compose Dependecy
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+#install
+Docker
+Docker Compose
+```
+Code change in file app.module.ts
+
+```bash
+imports: [MongooseModule.forRoot('mongodb://localhost/nest'), DeckModule],
+```
+to
+
+```bash
+imports: [MongooseModule.forRoot('mongodb://mongodb/nest'), DeckModule],
+```
+
+```bash
+# development
+$ docker-compose up dev
+
+# production mode
+$ docker-compose up prod
+```
+
 
 ## License
 
